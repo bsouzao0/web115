@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+/* Lists, background, and text */
+html {
+   background-color: #f6efea;
+}
+
+body {
+   font-family: "sans-serif";
+   
+}
+
+/* Pseudo classes/elements */
+
+footer {
+   background-color: #000080;
+   color: white;
+}
+
