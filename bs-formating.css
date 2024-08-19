@@ -6,12 +6,15 @@ html {
 }
 
 header {
-   width: 100%;
-   text-align: center;
+   overflow: hidden;
+   padding: 10px 20px;
 }
-.profile-pic {
-   display: inline;
-   margin: 0 auto;
+
+header img {
+   max-width: 100%;
+   height: auto;
+   display block;
+   
 }
 body {
    font-family: "sans-serif";
