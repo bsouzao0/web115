@@ -6,9 +6,8 @@ html {
 }
 
 header {
-   text-align: center;
-   margin-left: auto;
-   margin-right: auto;
+   overflow: hidden;
+   padding: 10px 20px;
 }
 
 header img {
@@ -16,15 +15,11 @@ header img {
    height: auto;
 }
 
-header nav {
-   width: 40%;
-   float: right;
-}
-
 header nav ul li {
    display: inline-block;
    margin-left: 10px;
 }
+
 
 body {
    font-family: "sans-serif";
