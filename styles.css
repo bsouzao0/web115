@@ -1,0 +1,104 @@
+@charset "utf-8";
+
+/* Lists, background, and text */
+html {
+   background-color: #f6efea;
+}
+
+header {
+   overflow: hidden;
+   padding: 10px 20px;
+}
+
+header img {
+   max-width: 100%;
+   height: auto;
+}
+
+header nav ul li {
+   display: inline-block;
+   margin-left: auto;
+
+}
+
+
+body {
+   font-family: "sans-serif";
+   max-width: 960px;
+   min-width: 640px;
+   padding: 20px;
+}
+   
+}
+
+article.intro {
+   clear: both;
+   padding: 20px;
+}
+
+/* Pseudo classes/elements */
+
+footer {
+   background-color: #000080;
+   color: white;
+   text-align: center;
+   margin-left: auto;
+   margin-right: auto;
+}
+footer img {
+   max-width: 100%;
+   height: auto;
+   
+}
+
+document.getElementById("validation_link_html").setAttribute("href", "https://validator.w3.org/check?uri=" + location.href);
+document.getElementById("validation_link_css").setAttribute("href", "https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);
+
+/* Media query for screens up to 768px */
+@media only screen and (max-width: 768px){
+	header{
+	padding: 10px;
+	}
+	header h1 {
+	font-size: 1.5em;
+	}
+	header nav ul {
+	display: none;
+	}
+	header nav ul li {
+	display: block;
+	margin: 10px 0;
+	}
+	article.intro {
+	padding: 10px;
+	}
+}
+/* Media query for screens from 769px onwards */
+@media only screen and (min-width: 769px){
+	header nav ul {
+	display: block;
+	}
+}
+/* Media query for screens from 1025px onwards */
+@media only screen and (min-width: 1025px) {
+	body {
+	display: flex;
+	flex-direction: row;
+	}
+	header, article, footer {
+	padding: 20px;
+	margin: 0;
+	}
+	header {
+	flex: 0 0 20%;
+	max-width: 20%;
+	}
+	article.intro {
+	flex: 1;
+	margin: 20px;
+	}
+	footer {
+	flex: 0 0 20%;
+	max-width: 20%;
+	}
+}
