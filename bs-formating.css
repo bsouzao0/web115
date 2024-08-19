@@ -16,6 +16,11 @@ header img {
    height: auto;
 }
 
+header nav {
+   width: 40%;
+   float: right;
+}
+
 header nav ul li {
    display: inline-block;
    margin-left: 10px;
