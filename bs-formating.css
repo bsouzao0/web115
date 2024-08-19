@@ -15,5 +15,9 @@ body {
 footer {
    background-color: #000080;
    color: white;
+   display: table;
+   text-align: center;
+   margin-left: auto;
+   margin-right: auto;
 }
 
