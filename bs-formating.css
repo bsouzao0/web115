@@ -11,9 +11,7 @@ header {
 }
 
 header img {
-   width: auto;
-   height: auto;
-   
+   text-align: center;
 }
 
 header nav {
