@@ -24,8 +24,8 @@ header nav ul li {
 
 body {
    font-family: "sans-serif";
-   max-width: 960px;
-   min-width: 640px;
+   width: auto;
+   height: auto;
    padding: 20px;
    
 }
