@@ -24,7 +24,15 @@ header nav ul li {
 
 body {
    font-family: "sans-serif";
+   max-width: 960px;
+   min-width: 640px;
+   padding: 20px;
    
+}
+
+article.intro {
+   clear: both;
+   padding: 20px;
 }
 
 /* Pseudo classes/elements */
