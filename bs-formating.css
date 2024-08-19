@@ -9,7 +9,10 @@ header {
    width: 100%;
    text-align: center;
 }
-
+.profile-pic {
+   display: inline;
+   margin: 0 auto;
+}
 body {
    font-family: "sans-serif";
    
