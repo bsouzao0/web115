@@ -16,6 +16,11 @@ header img {
    height: auto;
 }
 
+header nav ul li {
+   display: inline-block;
+   margin-left: 10px;
+}
+
 body {
    font-family: "sans-serif";
    
