@@ -10,17 +10,11 @@ header {
    padding: 10px 20px;
 }
 
-header img {
-   max-width: 100%;
-   height: auto;
-}
-
 header nav ul li {
    display: inline-block;
    margin-left: auto;
 
 }
-
 
 body {
    font-family: "sans-serif";
