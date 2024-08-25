@@ -37,6 +37,12 @@ body {
 	margin-right: auto;
   }
 
+figcaption {
+	font-style: italic;
+	padding: 2px;
+	text-align: center;
+}
+
 article.intro {
    clear: both;
    padding: 20px;
