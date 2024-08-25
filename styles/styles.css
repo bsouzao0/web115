@@ -8,6 +8,7 @@ html {
 header {
    overflow: hidden;
    padding: 10px 20px;
+   text-align: center;
 }
 
 header nav ul li {
@@ -22,7 +23,11 @@ body {
    min-width: 640px;
    padding: 20px;
 }
-   
+
+.center {
+	margin-left: auto;
+	margin-right: auto;
+  }
 
 article.intro {
    clear: both;
