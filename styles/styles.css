@@ -8,7 +8,14 @@ html {
 header {
    overflow: hidden;
    padding: 10px 20px;
-   text-align: center;
+}
+
+h1 {
+	text-align: centerr;
+}
+
+h2 {
+	text-align: centerr;
 }
 
 header nav ul li {
