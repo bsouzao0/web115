@@ -8,6 +8,7 @@ html {
 header {
    overflow: hidden;
    padding: 10px 20px;
+   color: #0f216c;
 }
 
 h1 {
@@ -30,6 +31,7 @@ body {
    max-width: 960px;
    min-width: 640px;
    padding: 20px;
+   color: #0f216c;
 }
 
 .center {
