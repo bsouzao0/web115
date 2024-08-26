@@ -16,7 +16,6 @@ body {
 
 /* Header */
 header {
-   padding: 10px 20px;
    color: #0f216c;
    width: 100%;
 }
@@ -65,7 +64,6 @@ footer {
    background-color: white;
    color: #000080;
    text-align: center;
-   padding: 10px 20px;
    margin: 20px auto 0 auto;
    width: 100%;
 }
@@ -108,7 +106,6 @@ footer nav ul li {
    }
 
    header, main, footer {
-      padding: 10px;
       margin: 0 auto;
       width: 100%;
    }
