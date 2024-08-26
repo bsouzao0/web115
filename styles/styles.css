@@ -43,7 +43,7 @@ figcaption {
 	text-align: center;
 }
 
-article.intro {
+main {
    clear: both;
    padding: 20px;
 }
@@ -82,7 +82,7 @@ footer nav ul li {
 	display: block;
 	margin: 10px 0;
 	}
-	article.intro {
+	main {
 	padding: 10px;
 	}
 }
@@ -106,7 +106,7 @@ footer nav ul li {
 	flex: 0 0 20%;
 	max-width: 20%;
 	}
-	article.intro {
+	main {
 	flex: 1;
 	margin: 20px;
 	}
