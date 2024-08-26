@@ -25,14 +25,10 @@ header nav ul li {
 }
 
 body {
-   font-family: "sans-serif";
+   font-family: "Muli";
    max-width: 960px;
    min-width: 640px;
    padding: 20px;
-}
-
-main {
-	font-family: 'Muli';
 }
 
 .center {
