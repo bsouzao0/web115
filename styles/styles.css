@@ -51,6 +51,18 @@ main {
    padding: 20px;
 }
 
+a:link {
+	color: #da4d79;
+	background-color: transparent;
+	text-decoration: none;
+  }
+  
+  a:visited {
+	color: #c39676;
+	background-color: transparent;
+	text-decoration: none;
+  }
+
 /* Pseudo classes/elements */
 
 footer {
