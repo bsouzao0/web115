@@ -21,8 +21,7 @@ header {
 }
 
 header nav {
-   background-color: #1836a7;
-   padding: 10px;
+   background-color: white;
 }
 
 header nav ul {
@@ -71,7 +70,7 @@ a:link {
 
 /* Footer */
 footer {
-   background-color: #c39676;
+   background-color: white;
    color: #000080;
    text-align: center;
    margin: 20px auto 0 auto;
