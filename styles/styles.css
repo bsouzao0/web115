@@ -31,6 +31,10 @@ body {
    padding: 20px;
 }
 
+main {
+	font-family: 'Muli';
+}
+
 .center {
 	display: block;
 	margin-left: auto;
