@@ -41,10 +41,20 @@ header nav ul li:first-child {
 }
 
 /* Headings */
-h1, h2 {
+h1 {
 	font-family: 'Caveat', cursive;
 	text-align: center;
 }
+/* Link Styles */
+a:link {
+	color: #da4d79;
+	background-color: transparent;
+	text-decoration: none; 
+ }
+ 
+ a:visited {
+	color: #ff278f;
+ }
 
 /* Img */
 .center {
