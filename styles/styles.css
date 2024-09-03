@@ -12,6 +12,7 @@ body {
    padding: 20px;
    color: #0f216c;
    margin: 0 auto;
+   font-size: 1.5em;
 }
 
 /* Header */
@@ -56,10 +57,6 @@ h1 {
 
 h2 {
    font-size: 2em;
-}
-
-p {
-   font-size: 1.5em;
 }
 
 /* Link Styles */
