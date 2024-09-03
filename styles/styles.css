@@ -58,6 +58,10 @@ h2 {
    font-size: 1.5em;
 }
 
+p {
+   font-size: 1.10em;
+}
+
 /* Link Styles */
 a:link {
 	color: #da4d79;
