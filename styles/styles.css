@@ -62,7 +62,7 @@ header nav {
    text-align: center;
    font-weight: bold;
    width: 100%;
-   justify-content: center;
+   justify-content: space-around;
 }
 
 header nav ul {
