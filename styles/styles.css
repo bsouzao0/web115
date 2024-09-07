@@ -46,7 +46,7 @@ header {
    z-index: 1;
 }
 
-.banner-heading2 p {
+.banner-heading2 {
    position: absolute;
    top: 20%;
    left: 50%;
