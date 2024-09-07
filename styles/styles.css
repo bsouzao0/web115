@@ -46,16 +46,15 @@ header {
    z-index: 1;
 }
 
-.overlay-text {
+header p {
    position: absolute;
-   top: 20%;
+   top: 25%;
    left: 45%;
    transform: translate(-50%, -50%);
    font-family: "EB Garamond", serif;
    font-size: 1.18em;
    padding: 10px;
    z-index: 1;
-}
 
 
 header nav {
