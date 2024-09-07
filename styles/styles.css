@@ -62,6 +62,7 @@ header nav {
    text-align: center;
    font-weight: bold;
    width: 100%;
+   justify-content: center;
 }
 
 header nav ul {
