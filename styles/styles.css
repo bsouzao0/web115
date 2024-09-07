@@ -46,10 +46,10 @@ header {
    z-index: 1;
 }
 
-.banner-heading2 {
+header p {
    position: absolute;
    top: 20%;
-   left: 40%;
+   left: 45%;
    transform: translate(-50%, -50%);
    font-family: "EB Garamond", serif;
    font-size: 1.18em;
@@ -61,6 +61,7 @@ header {
 header nav {
    background-color: white;
    text-align: center;
+   font-weight: bold;
 }
 
 header nav ul {
@@ -133,6 +134,7 @@ footer img {
 footer nav ul li {
 	display: inline-block;
 	margin-left: 15px;
+   font-weight: bold;
  
 }
 
