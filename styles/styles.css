@@ -21,6 +21,11 @@ header {
    width: 100%;
 }
 
+header .banner-container {
+   position: relative;
+   width: 100%;v
+}
+
 header .banner-container img {
    width: 100%;
    height: auto;
