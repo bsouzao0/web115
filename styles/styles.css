@@ -61,6 +61,7 @@ header {
 header nav {
    background-color: white;
    text-align: center;
+   font-weight: bold;
 }
 
 header nav ul {
@@ -96,13 +97,12 @@ h2 {
 /* Link Styles */
 a:link {
 	color: #da4d79;
-	background-color: white;
 	text-decoration: none; 
  }
  
  a:visited {
 	color: #ff278f;
-   font-weight: bold;
+   
  }
 
 /* Img */
