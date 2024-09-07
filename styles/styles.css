@@ -23,7 +23,7 @@ header {
 
 header .banner-container {
    position: relative;
-   width: 100%;v
+   width: 100%;
 }
 
 header .banner-container img {
@@ -32,7 +32,7 @@ header .banner-container img {
    display: block;
 }
 
-header .banner-container h1 {
+header .banner-heading {
    position: absolute;
    top: 50%;
    left: 50%;
