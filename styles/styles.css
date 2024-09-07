@@ -144,18 +144,39 @@ footer nav ul li {
 @media only screen and (max-width: 768px) {
    header {
       padding: 10px;
-   }
+      text-align: center; 
+  }
 
-   header nav ul {
-      display: flex;
-   }
-   header nav ul li {
-      margin: 10px 0;
-   }
+  .banner-container {
+      position: relative; 
+      text-align: center; 
+  }
 
-   main {
-      padding: 10px;
-   }
+  .banner-container img {
+      width: 100%; 
+      height: auto; 
+  }
+
+  .banner-heading1, header p {
+      position: relative;
+      top: auto; 
+      left: auto; 
+      transform: none; 
+      font-size: 1.5em; 
+      padding: 5px; 
+  }
+
+  header nav {
+      display: block; 
+      margin: 0 auto; 
+  }
+
+  header nav ul {
+      padding: 0;
+      margin: 0;
+      display: block; 
+      text-align: center; 
+  }
 }
 
 @media only screen and (min-width: 769px) {
