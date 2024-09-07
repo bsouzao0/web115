@@ -75,10 +75,10 @@ header nav ul li {
    display: inline-block;
    margin-left: 15px;
    text-align: center;
+   background-color: white;
 }
 
-header nav ul li:first-child {
-   margin-left: 0;
+header nav ul li a:hover{
    background-color: white;
 }
 
