@@ -17,22 +17,25 @@ body {
 
 /* Header */
 header {
-   color: #0f216c;
+   display: flex;
+   flex-direction: column; /* Stack items vertically */
+   align-items: center; /* Center items horizontally */
    width: 100%;
 }
 
-header .banner-container {
+.banner-container {
    position: relative;
    width: 100%;
+   text-align: center;
+   color: #0f216c;
 }
 
-header .banner-container img {
+.banner-container img {
    width: 100%;
    height: auto;
-   display: block;
 }
 
-header .banner-heading1 {
+.banner-heading1 {
    position: absolute;
    top: 15%;
    left: 50%;
@@ -41,10 +44,9 @@ header .banner-heading1 {
    font-family: 'Caveat', cursive;
    padding: 10px;
    z-index: 1;
-   text-align: center;
 }
 
-header .banner-heading3 {
+.banner-heading3 {
    position: absolute;
    top: 25%;
    left: 50%;
@@ -52,7 +54,6 @@ header .banner-heading3 {
    font-family: "EB Garamond", serif;
    padding: 10px;
    z-index: 1;
-   text-align: center;
 }
 
 
