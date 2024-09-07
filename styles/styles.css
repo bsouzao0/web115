@@ -48,14 +48,14 @@ header {
 
 header p {
    position: absolute;
-   top: 25%;
+   top: 20%;
    left: 45%;
    transform: translate(-50%, -50%);
    font-family: "EB Garamond", serif;
    font-size: 1.18em;
    padding: 10px;
    z-index: 1;
-
+}
 
 header nav {
    background-color: white;
