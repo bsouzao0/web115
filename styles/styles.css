@@ -62,24 +62,25 @@ header nav {
    text-align: center;
    font-weight: bold;
    width: 100%;
-   justify-content: space-around;
+   display: flex;
+   justify-content: center;
 }
 
 header nav ul {
    list-style-type: none;
    padding: 0;
    margin: 0;
+   display: flex;
 }
 
 header nav ul li {
    display: inline-block;
-   margin-left: 15px;
+   margin: 0 15px;
    text-align: center;
-   background-color: white;
 }
 
-header nav ul li a:hover{
-   background-color: white;
+header nav ul li:first-child {
+   margin-left: 0;
 }
 
 /* Headings */
@@ -146,7 +147,10 @@ footer nav ul li {
    }
 
    header nav ul {
-      display: block;
+      display: flex;
+   }
+   header nav ul li {
+      margin: 10px 0;
    }
 
    main {
