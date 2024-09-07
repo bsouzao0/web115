@@ -46,10 +46,10 @@ header {
    z-index: 1;
 }
 
-.banner-heading2 {
+.banner-heading2 p {
    position: absolute;
-   top: 25%;
-   left: 45%;
+   top: 20%;
+   left: 50%;
    transform: translate(-50%, -50%);
    font-family: "EB Garamond", serif;
    padding: 10px;
