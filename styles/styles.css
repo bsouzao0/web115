@@ -29,6 +29,9 @@ header img {
    width: 100%;
    height: auto;
 }
+header div {
+   font-style: italic;
+}
 
 header h1 {
    position: absolute;
@@ -50,7 +53,7 @@ header p {
    font-size: 1.18em;
    padding: 10px;
    z-index: 1;
-   font-style: italic;
+   
 }
 
 header nav {
