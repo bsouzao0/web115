@@ -17,31 +17,46 @@ body {
 
 /* Header */
 header {
+   position: relative;
    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    text-align: center;
-    color: #0f216c;
+   flex-direction: column;
+   align-items: center;
+   width: 100%;
+   text-align: center;
+   color: #0f216c;
 
 }
 
 header img {
    width: 100%;
    height: auto;
+   display: block;
 }
 header div {
    font-style: italic;
 }
 
+header h1 {
+   position: absolute; 
+   left: 50%;
+   transform: translateX(-50%); 
+   top: 20%; 
+   font-size: 5vw; 
+   font-family: 'Caveat', cursive;
+   z-index: 1; 
+   margin: 0; 
+}
 
 header p {
-   position: relative;
+   position: absolute; 
+   left: 50%;
+   transform: translateX(-50%); 
+   top: 30%; 
    font-family: "EB Garamond", sans-serif;
-   font-size: 1.18em;
+   font-size: 3vw; 
    padding: 10px;
-   z-index: 1;
-   
+   z-index: 1; 
+   margin: 0; 
 }
 
 header nav {
@@ -71,14 +86,7 @@ header nav ul li:first-child {
 
 /* Headings */
 
-h1 {
-   font-size: 2.10em;
-   font-family: 'Caveat', cursive;
-	text-align: center;
-   position: relative;
-   padding: 10px;
-   z-index: 1;
-}
+
 
 h2 {
    font-size: 1.8em;
