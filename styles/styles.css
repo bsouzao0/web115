@@ -32,9 +32,6 @@ header img {
    height: auto;
    display: block;
 }
-header div {
-   font-style: italic;
-}
 
 h1 {
    position: absolute; 
@@ -56,7 +53,8 @@ header p {
    font-size: 1.20em; 
    padding: 10px;
    z-index: 1; 
-   margin: 0; 
+   margin: 0;
+   font-style: italic;
 }
 
 header nav {
