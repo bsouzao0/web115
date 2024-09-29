@@ -49,7 +49,7 @@ h1 {
 
 header p {
    position: absolute; 
-   left: 45%;
+   left: 40%;
    transform: translateX(-50%); 
    top: 40%; 
    font-family: "EB Garamond", sans-serif;
