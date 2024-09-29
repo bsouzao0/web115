@@ -40,7 +40,7 @@ h1 {
    position: absolute; 
    left: 50%;
    transform: translateX(-50%); 
-   top: 20%; 
+   top: 25%; 
    font-size: 2.10em; 
    font-family: 'Caveat', cursive;
    z-index: 1; 
@@ -51,7 +51,7 @@ header p {
    position: absolute; 
    left: 45%;
    transform: translateX(-50%); 
-   top: 30%; 
+   top: 40%; 
    font-family: "EB Garamond", sans-serif;
    font-size: 1.20em; 
    padding: 10px;
@@ -66,7 +66,6 @@ header nav {
    display: flex;
    justify-content: center;
    margin: 20px 0;
-   font-size: 1.20em;
 }
 
 header nav ul {
