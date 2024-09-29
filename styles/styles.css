@@ -18,13 +18,12 @@ body {
 /* Header */
 header {
    display: flex;
-   justify-content: space-between;
-   align-items: center;
-   flex-direction: column; 
-   align-items: center; 
-   width: 100%;
-   text-align: center;
-   color: #0f216c;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    color: #0f216c;
+
 }
 
 header img {
@@ -37,10 +36,7 @@ header div {
 
 
 header p {
-   position: absolute;
-   top: 20%;
-   left: 45%;
-   transform: translate(-50%, -50%);
+   position: relative;
    font-family: "EB Garamond", sans-serif;
    font-size: 1.18em;
    padding: 10px;
@@ -50,11 +46,11 @@ header p {
 
 header nav {
    background-color: white;
-   text-align: center;
    font-weight: bold;
    width: 100%;
    display: flex;
    justify-content: center;
+   margin: 20px 0;
 }
 
 header nav ul {
@@ -65,9 +61,8 @@ header nav ul {
 }
 
 header nav ul li {
-   display: inline-block;
    margin: 0 15px;
-   text-align: center;
+   
 }
 
 header nav ul li:first-child {
@@ -80,10 +75,7 @@ h1 {
    font-size: 2.10em;
    font-family: 'Caveat', cursive;
 	text-align: center;
-   position: absolute;
-   top: 15%;
-   left: 50%;
-   transform: translate(-50%, -50%);
+   position: relative;
    padding: 10px;
    z-index: 1;
 }
@@ -123,6 +115,7 @@ footer {
    text-align: center;
    margin: 20px auto 0 auto;
    width: 100%;
+   padding: 10px 0;
 }
 
 footer img {
@@ -141,43 +134,27 @@ footer nav ul li {
 @media only screen and (max-width: 768px) {
    header {
       padding: 10px;
-      text-align: center; 
-      
-  }
-
-  .banner-container {
-      position: relative; 
-      text-align: center; 
-  }
-
-  .banner-container img {
-      width: 100%; 
-      height: auto; 
-  }
-
-  .banner-heading1, header p {
-      position: relative;
-      top: auto; 
-      left: auto; 
-      transform: none; 
   }
 
   header nav {
-      display: block; 
-      margin: 0 auto; 
+      flex-direction: column;
   }
 
   header nav ul {
-      padding: 0;
-      margin: 0;
       display: block; 
       text-align: center; 
+  }
+  header p {
+   margin-top: 20px;
   }
 }
 
 @media only screen and (min-width: 769px) {
    header nav ul {
       display: flex;
+   }
+   header nav {
+      flex-direction: row;
    }
 }
 
