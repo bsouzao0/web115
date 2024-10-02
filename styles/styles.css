@@ -117,8 +117,10 @@ a:link {
 
  /* Form */
  form {
-   display: inline-block;
+   display: flex;
+   width: 50%;
  }
+ 
  label {
    display: block;
    margin: 0.5rem 0;
