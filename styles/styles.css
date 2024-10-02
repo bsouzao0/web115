@@ -115,6 +115,13 @@ a:link {
 	text-align: center;
  }
 
+ /* Form */
+ 
+ label {
+   display: block;
+   margin: 0.5rem 0;
+ }
+
 /* Footer */
 footer {
    text-align: center;
