@@ -117,11 +117,8 @@ a:link {
 
  /* Form */
  form {
-   display: flex;
-   width: 50%;
    text-align: center;
  }
-
  label {
    display: block;
    margin: 0.5rem 0;
