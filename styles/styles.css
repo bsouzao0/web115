@@ -44,7 +44,7 @@ h1 {
    margin: 0; 
 }
 
-caption {
+header caption {
    position: absolute; 
    left: 40%;
    transform: translateX(-50%); 
