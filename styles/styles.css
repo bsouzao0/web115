@@ -159,7 +159,7 @@ footer nav ul li {
       display: block; 
       text-align: center; 
   }
-  header p {
+  header caption {
    margin-top: 20px;
   }
 }
