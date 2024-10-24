@@ -7,7 +7,7 @@ $(document).ready(function() {
         // Title
         var pageKey = $('body').data('page-key');
         var pageTitle = pageConfig.pageTitles[pageKey] || pageConfig.defaultTitle;
-        document.title + pageConfig.titelPrefix + pageTitle;
+        document.title = pageConfig.titelPrefix + pageTitle;
     });
 
     // Header
