@@ -5,7 +5,7 @@ $(document).ready(function() {
         $('head').append(data);
 
         // Title
-        var pageKey = $('body').data('page-key');
+        var pageKey = $('body').data('title');
         var pageTitle = pageConfig.pageTitles[pageKey] || pageConfig.defaultTitle;
         document.title = pageConfig.titlePrefix + pageTitle;
     });
