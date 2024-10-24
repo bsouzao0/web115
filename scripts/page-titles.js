@@ -5,5 +5,6 @@ var pageConfig = {
         about: "Introduction",
         contract: "Contract",
         brand: "Brand Guide"
-    }
-}
+    },
+    defaultTitle: "Default Title"
+};
