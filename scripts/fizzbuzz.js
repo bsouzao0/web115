@@ -20,7 +20,7 @@ document.getElementById('fizzbuzz').addEventListener('submit', function(event) {
     var output = '';
     for (let i = 1; i<= countLimit; i++) {
         if (i % 2 === 0) {
-            output += i + '. Brave Owl - The number is ever <br>';
+            output += i + '. Brave Owl - The number is even <br>';
         } else {
             output += i + '. Brave Owl - The number is odd <br>';
         }
