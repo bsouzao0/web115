@@ -10,6 +10,11 @@ document.getElementById('fizzbuzz').addEventListener('submit', function(event) {
     var fullName = firstName + " " + middleInitial + ". " + lastName;
     var welcome = "Welcome to Brave Owl's FizzBuzz, " + fullName + "!";
 
+    // Middle Initial optional 
+    if (middleInitial.trim() !== "") {
+        fullName += middleInitial + ". ";
+    }
+
     // Greeting Updated
     document.getElementById('greeting').textContent = welcome;
 
