@@ -25,5 +25,5 @@ document.getElementById('fizzbuzz').addEventListener('submit', function(event) {
             output += i + '. Brave Owl - The number is odd <br>';
         }
     }
-    document.getElementById('fizzBuzzOutput').innerHTML = output;
+    document.getElementById('fizzOutput').innerHTML = output;
 });
