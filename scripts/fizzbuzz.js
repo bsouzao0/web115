@@ -14,7 +14,7 @@ document.getElementById('fizzbuzz').addEventListener('submit', function(event) {
     document,getElementById('greeting').textContent = welcome;
 
     // Prompt for a number
-    var countLimit = prompt("How hight do you want to count, " + firstName + "?");
+    var countLimit = prompt("How high do you want to count, " + firstName + "?");
 
     // FizzBuzz
     var output = '';
