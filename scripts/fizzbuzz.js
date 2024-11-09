@@ -11,7 +11,7 @@ document.getElementById('fizzbuzz').addEventListener('submit', function(event) {
     var welcome = "Welcome to Brave Owl's FizzBuzz, " + fullName + "!";
 
     // Greeting Updated
-    document,getElementById('greeting').textContent = welcome;
+    document.getElementById('greeting').textContent = welcome;
 
     // Prompt for a number
     var countLimit = prompt("How high do you want to count, " + firstName + "?");
