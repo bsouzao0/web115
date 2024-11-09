@@ -8,7 +8,7 @@ document.getElementById('fizzbuzz').addEventListener('submit', function(event) {
 
     // Greeting message
     var fullName = firstName + " " + middleInitial + ". " + lastName;
-    var welcome = "Welcome to Brave Owl's FizzBuzz, " + fullName + "!";
+    var welcome = "Welcome to Brave Owl, " + fullName + "!";
 
     // Greeting Updated
     document.getElementById('greeting').textContent = welcome;
