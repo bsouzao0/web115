@@ -96,6 +96,9 @@ h3 {
    padding: 0;
 }
 
+#greeting {
+   text-align: center;
+}
 /* Link Styles */
 a:link {
 	color: #00437a;
