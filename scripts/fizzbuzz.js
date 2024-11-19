@@ -26,10 +26,16 @@ document.getElementById('fizzbuzz').addEventListener('submit', function(event) {
         }
     }
     document.getElementById('fizz-output').innerHTML = output;
-
+});
     // Reset
     document.getElementById("reset").addEventListener("click", function() {
+        // Clear the output area
         const outputBox = document.getElementById("fizz-output");
         outputBox.innerHTML = "";
+    
+        // Reset form fields
+        document.getElementById('fizzbuzz').reset();
+    
+        // Reset the greeting
+        document.getElementById('greeting').textContent = "";
     });
-});
