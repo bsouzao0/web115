@@ -26,4 +26,10 @@ document.getElementById('fizzbuzz').addEventListener('submit', function(event) {
         }
     }
     document.getElementById('fizz-output').innerHTML = output;
+
+    // Reset
+    document.getElementById("reset").addEventListener("click", function() {
+        const outputBox = document.getElementById("fizz-output");
+        outputBox.innerHTML = "";
+    });
 });
