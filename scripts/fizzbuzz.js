@@ -37,5 +37,5 @@ document.getElementById('fizzbuzz').addEventListener('submit', function(event) {
         document.getElementById('fizzbuzz').reset();
     
         // Reset the greeting
-        document.getElementById('greeting').textContent = "";
+        document.getElementById('greeting').textContent = "Welcome to Brave Owl";
     });
