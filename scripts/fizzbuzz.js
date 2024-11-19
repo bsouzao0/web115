@@ -35,7 +35,4 @@ document.getElementById('fizzbuzz').addEventListener('submit', function(event) {
     
         // Reset form fields
         document.getElementById('fizzbuzz').reset();
-    
-        // Reset the greeting
-        document.getElementById('greeting').reset();
     });
