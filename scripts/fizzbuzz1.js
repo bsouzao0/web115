@@ -31,8 +31,7 @@ document.getElementById('fizzbuzz1').addEventListener('submit', function(event) 
                 output += i + '. ' + word1 + '<br>';
             }
         }
-    }
-    
+    }  
     document.getElementById('fizz-output').innerHTML = output; 
 });
     // Reset
