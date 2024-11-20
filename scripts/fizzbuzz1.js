@@ -29,10 +29,6 @@ document.getElementById('fizzbuzz1').addEventListener('submit', function(event) 
 });
     // Reset
     document.getElementById("reset").addEventListener("click", function() {
-        // Clear the output area
-        const outputBox = document.getElementById("fizz-output");
-        outputBox.innerHTML = "";
-    
-        // Reset form fields
-        document.getElementById('fizzbuzz').reset();
+        document.getElementById("greeting").textContent = "Welcome to Brave Owl!";
+        document.getElementById("fizz-output");
     });
