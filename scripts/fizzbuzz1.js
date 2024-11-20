@@ -22,7 +22,7 @@ document.getElementById('fizzbuzz1').addEventListener('submit', function(event) 
     for (var i = 1; i <= 140; i++) {
         if (i % 3 === 0 && i % 5 === 0) {
             output += i + '. ' + word1 + ' ' + word2 + '<br>';
-        } else if (i % 3 === 0) {
+        } else if (i % 3 === 0 || i % 5 === 0) {
             output += i + '. ' + word2 + '<br>';
         } else {
             output += i + '. ' + word1 + '<br>';
