@@ -14,28 +14,26 @@ document.getElementById('fizzbuzz1').addEventListener('submit', function(event) 
     document.getElementById('greeting').textContent = welcome;
 
     // FizzBuzz 1
-    document.getElementById('submit').addEventListener('click', function() {
-        var word1 = 'Hoot';
-        var word2 = 'Brave';
+    var word1 = 'Hoot';
+    var word2 = 'Brave';
 
-        var output = '';
+    var output = '';
 
-        for (var i = 1; i <= 140; i++) {
-            if (i % 3 === 0 && i % 5 === 0) {
-                output += i + '. ' + word1 + ' ' + word2 + '<br>';
-            } else if (i % 3 === 0) {
-                output += i + '. ' + word1 + '<br>';
-            } else if (i % 5 === 0) {
-                output += i + '. ' + word2 + '<br>';
-            } else {
-                output += i + '. ' + word1 + '<br>';
-            }
+    for (var i = 1; i <= 140; i++) {
+        if (i % 3 === 0 && i % 5 === 0) {
+            output += i + '. ' + word1 + ' ' + word2 + '<br>';
+        } else if (i % 3 === 0) {
+            output += i + '. ' + word1 + '<br>';
+        } else if (i % 5 === 0) {
+            output += i + '. ' + word2 + '<br>';
+        } else {
+            output += i + '. ' + word1 + '<br>';
         }
-    });  
+    }  
     document.getElementById('fizz-output').innerHTML = output; 
 });
     // Reset
-    document.getElementById("reset").addEventListener("click", function() {
-        document.getElementById("greeting").textContent = "Welcome to Brave Owl!";
-        document.getElementById("fizz-output");
+document.getElementById("reset").addEventListener("click", function() {
+    document.getElementById("greeting").textContent = "Welcome to Brave Owl!";
+    document.getElementById("fizz-output").innerHTML = '';
 });
