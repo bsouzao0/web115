@@ -122,10 +122,10 @@ a:link {
  form {
    text-align: center;
  }
- div #output {
+ #fizz-output {
    margin-right: 10rem;
  }
- 
+
  label {
    display: block;
    margin: 0.5rem 0;
