@@ -14,10 +14,26 @@ document.getElementById('fizzbuzz1').addEventListener('submit', function(event) 
     document.getElementById('greeting').textContent = welcome;
 
     // FizzBuzz 1
-    function createList() {
-        const word = document.get
+    document.getElementById('submit').addEventListener('click', function()) {
+        var word1 = 'Hoot';
+        var word2 = 'Brave';
+
+        var output = '';
+
+        for (var i = 1; i <= 140; i++) {
+            if (i % 3 === 0 && i % 5 === 0) {
+                output += i + '. ' + word1 ' ' + word2 + '<br>';
+            } else if (i % 3 === 0) {
+                output += i + '. ' + word1 + '<br>';
+            } else if (i % 5 === 0) {
+                output += i + '. ' + word2 + '<br>';
+            } else {
+                output += i + '. ' + word1 + '<br>';
+            }
+        }
     }
-    document.getElementById('fizz-output').innerHTML = output;
+    
+    document.getElementById('fizz-output').innerHTML = output; 
 });
     // Reset
     document.getElementById("reset").addEventListener("click", function() {
