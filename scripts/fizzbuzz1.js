@@ -23,8 +23,6 @@ document.getElementById('fizzbuzz1').addEventListener('submit', function(event) 
         if (i % 3 === 0 && i % 5 === 0) {
             output += i + '. ' + word1 + ' ' + word2 + '<br>';
         } else if (i % 3 === 0) {
-            output += i + '. ' + word1 + '<br>';
-        } else if (i % 5 === 0) {
             output += i + '. ' + word2 + '<br>';
         } else {
             output += i + '. ' + word1 + '<br>';
