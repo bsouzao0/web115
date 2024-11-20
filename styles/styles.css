@@ -122,6 +122,9 @@ a:link {
  form {
    text-align: center;
  }
+ div #output {
+   margin-right: 10rem;
+ }
  
  label {
    display: block;
