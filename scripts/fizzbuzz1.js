@@ -12,8 +12,9 @@ document.getElementById('fizzbuzz1').addEventListener('submit', function(event) 
 
     // Greeting Updated
     document.getElementById('greeting').textContent = welcome;
-
+});
     // FizzBuzz 1
+document.getElementById('generate').addEventListener('click', function() {
     var word1 = 'Hoot';
     var word2 = 'Brave';
 
