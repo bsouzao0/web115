@@ -14,7 +14,7 @@ document.getElementById('fizzbuzz1').addEventListener('submit', function(event) 
     document.getElementById('greeting').textContent = welcome;
 
     // FizzBuzz 1
-    var word1 = 'Hoot';
+    var word1 = 'Fly';
     var word2 = 'Brave';
 
     var output = '';
