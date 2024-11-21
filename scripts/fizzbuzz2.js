@@ -16,18 +16,19 @@ document.getElementById('fizzbuzz1').addEventListener('submit', function(event) 
     // FizzBuzz 2
     const firstDivisor = 3;
     const secondDivisor = 5;
-    var word1 = 'Fly';
-    var word2 = 'Brave';
 
     var output = '';
 
     for (var i = 1; i <= 140; i++) {
         if (division(i, firstDivisor) && division (i, secondDivisor)) {
-            output += i + '. ' + word1 + ' ' + word2 + '<br>';
-        } else if (division(i, firstDivisor) || division (i, secondDivisor)) {
-            output += i + '. ' + word2 + '<br>';
-        } else {
-            output += i + '. ' + word1 + '<br>';
+            output += i + 'It is divisble by  ' + firstDivisor + 'and ' + secondDivisor + '<br>';
+        } else if (division(i, firstDivisor)) {
+            output += i + 'It is divisble by  ' + firstDivisor + '<br>';
+        } else if (division (i, secondDivisor)) {
+            output += i + 'It is divisble by  ' + secondDivisor + '<br>';
+        }
+            else {
+            output += i + 'It is not divisble by  ' + firstDivisor + 'or ' + secondDivisor + '<br>';
         }
     }  
     document.getElementById('fizz-output').innerHTML = output; 
