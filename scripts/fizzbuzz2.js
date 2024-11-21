@@ -22,6 +22,10 @@ document.getElementById('fizzbuzz2').addEventListener('submit', function(event) 
 
     var output = '';
 
+    function division(number, divisor) {
+        return number % divisor === 0;
+    }
+
     for (let i = 1; i<= countLimit; i++) {
         if (division(i, firstDivisor) && division (i, secondDivisor)) {
             output += i + 'This number is divisible by  ' + firstDivisor + 'and ' + secondDivisor + '<br>';
