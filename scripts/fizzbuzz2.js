@@ -13,13 +13,16 @@ document.getElementById('fizzbuzz1').addEventListener('submit', function(event) 
     // Greeting Updated
     document.getElementById('greeting').textContent = welcome;
 
+    // Prompt for a number
+    var countLimit = prompt("How high do you want to count, " + firstName + "?");
+
     // FizzBuzz 2
     const firstDivisor = 3;
     const secondDivisor = 5;
 
     var output = '';
 
-    for (var i = 1; i <= 140; i++) {
+    for (let i = 1; i<= countLimit; i++) {
         if (division(i, firstDivisor) && division (i, secondDivisor)) {
             output += i + 'It is divisble by  ' + firstDivisor + 'and ' + secondDivisor + '<br>';
         } else if (division(i, firstDivisor)) {
