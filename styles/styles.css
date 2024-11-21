@@ -121,6 +121,7 @@ a:link {
  /* Form */
  form {
    text-align: center;
+   padding: 2px;
  }
 
  #fizz-output {
