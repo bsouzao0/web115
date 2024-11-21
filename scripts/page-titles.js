@@ -7,7 +7,7 @@ var pageConfig = {
         brand: "Brand Guide",
         fizzbuzz0: "FizzBuzz",
         fizzbuzz1: "FizzBuzz 1",
-        fizzbuzz2: "FizzBuzz 2",
+        fizzbuzz2: "FizzBuzz 2"
     },
     defaultTitle: "Default Title"
 };
