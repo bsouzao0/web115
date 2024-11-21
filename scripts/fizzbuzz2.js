@@ -1,4 +1,4 @@
-document.getElementById('fizzbuzz1').addEventListener('submit', function(event) {
+document.getElementById('fizzbuzz2').addEventListener('submit', function(event) {
     event.preventDefault();
 
     // Inputs
