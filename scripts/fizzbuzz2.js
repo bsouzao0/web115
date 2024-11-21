@@ -24,14 +24,14 @@ document.getElementById('fizzbuzz1').addEventListener('submit', function(event) 
 
     for (let i = 1; i<= countLimit; i++) {
         if (division(i, firstDivisor) && division (i, secondDivisor)) {
-            output += i + 'It is divisble by  ' + firstDivisor + 'and ' + secondDivisor + '<br>';
+            output += i + 'This number is divisible by  ' + firstDivisor + 'and ' + secondDivisor + '<br>';
         } else if (division(i, firstDivisor)) {
-            output += i + 'It is divisble by  ' + firstDivisor + '<br>';
+            output += i + 'This number is divisible by  ' + firstDivisor + '<br>';
         } else if (division (i, secondDivisor)) {
-            output += i + 'It is divisble by  ' + secondDivisor + '<br>';
+            output += i + 'This number is divisible by  ' + secondDivisor + '<br>';
         }
             else {
-            output += i + 'It is not divisble by  ' + firstDivisor + 'or ' + secondDivisor + '<br>';
+            output += i + 'It is not divisible by  ' + firstDivisor + 'or ' + secondDivisor + '<br>';
         }
     }  
     document.getElementById('fizz-output').innerHTML = output; 
