@@ -29,8 +29,7 @@ document.getElementById('fizzbuzz1').addEventListener('submit', function(event) 
             output += i + 'This number is divisible by  ' + firstDivisor + '<br>';
         } else if (division (i, secondDivisor)) {
             output += i + 'This number is divisible by  ' + secondDivisor + '<br>';
-        }
-            else {
+        } else {
             output += i + 'It is not divisible by  ' + firstDivisor + 'or ' + secondDivisor + '<br>';
         }
     }  
