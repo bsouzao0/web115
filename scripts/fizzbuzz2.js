@@ -28,13 +28,13 @@ document.getElementById('fizzbuzz2').addEventListener('submit', function(event) 
 
     for (let i = 1; i<= countLimit; i++) {
         if (division(i, firstDivisor) && division (i, secondDivisor)) {
-            output += i + 'This number is divisible by  ' + firstDivisor + 'and ' + secondDivisor + '<br>';
+            output += i + '. This number is divisible by  ' + firstDivisor + ' and ' + secondDivisor + '<br>';
         } else if (division(i, firstDivisor)) {
-            output += i + 'This number is divisible by  ' + firstDivisor + '<br>';
+            output += i + '. This number is divisible by  ' + firstDivisor + '<br>';
         } else if (division (i, secondDivisor)) {
-            output += i + 'This number is divisible by  ' + secondDivisor + '<br>';
+            output += i + '. This number is divisible by  ' + secondDivisor + '<br>';
         } else {
-            output += i + 'It is not divisible by  ' + firstDivisor + 'or ' + secondDivisor + '<br>';
+            output += i + '. It is not divisible by  ' + firstDivisor + ' or ' + secondDivisor + '<br>';
         }
     }  
     document.getElementById('fizz-output').innerHTML = output; 
