@@ -145,7 +145,7 @@ a:link {
 
  #fizz-output {
    margin: 10px auto;
-   width: 40%;
+   max-width: 35%;
    text-align: left;
  }
 
