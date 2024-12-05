@@ -119,12 +119,15 @@ a:link {
  }
 
  /* Form */
- form {
-   text-align: left;
+ #fizzbuzz {
    width: 50%;
    margin: 0 auto;
-
  }
+
+ input {
+   text-align: center;
+ }
+ 
  #middle-initial {
    width: 10%;
  }
