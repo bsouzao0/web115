@@ -124,24 +124,20 @@ a:link {
    margin: 0 auto;
  }
 
- input {
-   text-align: center;
- }
- 
- #middle-initial {
-   width: 10%;
- }
- #fizz-output {
-   margin: 10px auto;
-   padding-left: 25px;
-   background: white;
- }
-
  label {
    display: block;
    margin: 0.5rem 0;
  }
 
+ #middle-initial {
+   width: 10%;
+ }
+ #fizz-output {
+   margin: 10px auto;
+   padding-left: 200px;
+   text-align: left;
+ }
+ 
 /* Footer */
 footer {
    text-align: center;
