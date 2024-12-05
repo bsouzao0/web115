@@ -120,8 +120,11 @@ a:link {
 
  /* Form */
  form {
-   width: 50%;
+   display: flex;
+   justify-content: space-evenly;
+   flex-direction: column;
    margin: 0 auto;
+   max-width: 35%;
  }
  
  form div {
