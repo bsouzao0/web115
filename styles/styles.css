@@ -122,7 +122,6 @@ a:link {
  form {
    width: 50%;
    margin: 0 auto;
-
  }
  
  form div {
@@ -134,7 +133,7 @@ a:link {
  label {
    display: block;
    margin: 10px auto;
-   width: 60%;
+   width: 80%;
  }
 
  #middle-initial {
