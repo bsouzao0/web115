@@ -125,6 +125,12 @@ a:link {
 
  }
  
+ form div {
+   display: flex;
+   justify-content: center;
+   gap: 10px;
+ }
+
  label {
    display: block;
    margin: 10px auto;
@@ -165,25 +171,31 @@ footer nav ul li {
 @media only screen and (max-width: 768px) {
    header {
       padding: 10px;
-  }
+   }
 
-  header nav {
+   header nav {
       flex-direction: column;
-  }
+   }
 
-  header nav ul {
+   header nav ul {
       display: block; 
       text-align: center; 
-  }
-  header div {
-   margin-top: 20px;
-  }
+   }
+   
+   header div {
+      position: relative;
+      top: auto;
+      transform: none; 
+      margin-top: 20px;
+   }
 }
 
 @media only screen and (min-width: 769px) {
    header nav ul {
       display: flex;
+      justify-content: space-around;
    }
+
    header nav {
       flex-direction: row;
    }
