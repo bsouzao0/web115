@@ -134,10 +134,10 @@ a:link {
  }
  #fizz-output {
    margin: 10px auto;
-   padding-left: 200px;
+   width: 50%;
    text-align: left;
  }
- 
+
 /* Footer */
 footer {
    text-align: center;
