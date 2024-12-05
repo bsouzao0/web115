@@ -121,7 +121,7 @@ a:link {
  /* Form */
  form {
    text-align: left;
-   width: 60%;
+   width: 50%;
    margin: 0 auto;
 
  }
@@ -129,7 +129,10 @@ a:link {
    width: 10%;
  }
  #fizz-output {
-   margin-left: 5rem;
+   margin: 10px auto;
+   width: 50%;
+   padding-left: 25px;
+   background: white;
  }
 
  label {
