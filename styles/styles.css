@@ -120,9 +120,14 @@ a:link {
 
  /* Form */
  form {
-   text-align: center;
- }
+   text-align: left;
+   width: 60%;
+   margin: 0 auto;
 
+ }
+ #middle-initial {
+   width: 10%;
+ }
  #fizz-output {
    margin-left: 5rem;
  }
