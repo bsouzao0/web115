@@ -39,13 +39,13 @@ document.getElementById('fizzbuzz3').addEventListener('submit', function(event) 
         if (divisibleN.length > 0) {
             output += `${i} ${storeText.trim()} - Divisible by ${divisibleN.join(", ")}<br>`;
             } else {
-                output += `${i} is not divisible by any of ${divisors.join(", ")}<br>`;
+                output += `${i} - It is not divisible by any of the numbers: ${divisors.join(", ")}<br>`;
             }
         }
 
         document.getElementById('fizz-output').innerHTML = output;
     });
-    
+
     // Reset
 document.getElementById("reset").addEventListener("click", function() {
     document.getElementById("greeting").textContent = "Welcome to Brave Owl!";
