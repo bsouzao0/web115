@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+        <script src="scripts/page-titles.js"></script>
+        <script src="scripts/page-components.js" defer></script>
+        <title>Brenda Oliveira's Brave Owl</title>
+    </head>
+<body data-title="fizzbuzz3">
+    <h2>FizzBuzz 2</h2>
+    <h3 id="greeting">Welcome to Brave Owl!</h3>
+    <form id="fizzbuzz3">
+        <label for="first-name">First Name:
+            <input id="first-name" type="text" placeholder="Enter your first name" required>
+        </label>
+        <label for="middle-initial">Middle Initial:
+            <input id="middle-initial" type="text" maxlength="1" pattern="[A-Za-z]" placeholder="M.">
+        </label>
+        <label for="last-name">Last Name:
+            <input id="last-name" type="text" placeholder="Enter your last name" required>
+        </label>
+        <div class="buttons">
+            <button type="submit">Submit</button>
+            <input id="reset" type="reset">
+        </div>
+    </form>
+
+    <div id="fizz-output"></div>
+    <script src="scripts/fizzbuzz3.js"></script>
+
+</body>
+</html>
