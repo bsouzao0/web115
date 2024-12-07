@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+        <script src="scripts/page-titles.js"></script>
+        <script src="scripts/page-components.js" defer></script>
+        <title>Brenda Oliveira's Brave Owl</title>
+    </head>
+<body data-title="fizzbuzz4">
+    <h2>FizzBuzz 4</h2>
+    <h3 id="greeting">Let's play FizzBuzz!</h3>
+    <form id="fizzbuzz4">
+        <fieldset>
+            <legend>Tell me more about you:</legend>
+            <label for="first-name">First Name:
+                <input id="first-name" type="text" placeholder="Enter your first name" required>
+            </label>
+            <label for="middle-initial">Middle Initial:
+                <input id="middle-initial" type="text" maxlength="1" pattern="[A-Za-z]" placeholder="M.">
+            </label>
+            <label for="last-name">Last Name:
+                <input id="last-name" type="text" placeholder="Enter your last name" required>
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Do you like division? Pick your numbers, magical words, and set your limit:</legend>
+            <div class="numbers">
+                <label for="num1">1st Number:
+                    <input id="num1" type="number" value="3" required>
+                </label>
+                <label for="num2">2nd Number:
+                    <input id="num2" type="number" value="5" required>
+                </label>
+                <label for="num3">3rd Number:
+                    <input id="num3" type="number" value="7" required>
+                </label>
+                <label for="count">Limit:
+                    <input id="count" type="number" value="125" required>
+                </label>
+            </div>
+            <div class="words">
+                <label for="word1">1st Word:
+                    <input id="word1" type="text" value="Fly" required>
+                </label>
+                <label for="word2">2nd Word:
+                    <input id="word2" type="text" value="Brave" required>
+                </label>
+                <label for="word3">3rd Word:
+                    <input id="word3" type="text" value="BANG" required>
+                </label>
+                <label for="default">Default word:
+                    <input id="default" type="text" placeholder="Optional">
+                </label>
+            </div>
+        </fieldset>
+        <div class="buttons">
+            <button type="submit">Submit</button>
+            <input id="reset" type="reset">
+        </div>
+    </form>
+
+    <div id="fizz-output"></div>
+    <script src="scripts/fizzbuzz4.js"></script>
+
+</body>
+</html>
