@@ -57,7 +57,7 @@ document.getElementById('fizzbuzz4').addEventListener('submit', function(event) 
 
     // Reset
 document.getElementById("reset").addEventListener("click", function() {
-    document.getElementById("greeting").textContent = "Welcome to Brave Owl!";
+    document.getElementById("greeting").textContent = "Let's Play!";
     document.getElementById("fizz-output").innerHTML = '';
 
 });
