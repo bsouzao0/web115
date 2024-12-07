@@ -37,9 +37,9 @@ document.getElementById('fizzbuzz3').addEventListener('submit', function(event) 
             }
         }
         if (divisibleN.length > 0) {
-            output += `${i} - ${storeText.trim()} - Divisible by ${divisibleN.join(", ")}<br>`;
+            output += `${i}. ${storeText.trim()} - Divisible by ${divisibleN.join(", ")}<br>`;
             } else {
-                output += `${i} - It is not divisible by any of the ${divisors.join(", ")}<br>`;
+                output += `${i}. It is not divisible by any of the ${divisors.join(", ")}<br>`;
             }
         }
 
