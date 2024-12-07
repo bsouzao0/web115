@@ -35,7 +35,7 @@ document.getElementById('fizzbuzz4').addEventListener('submit', function(event) 
         return number % divisor === 0;
     }
 
-    for (let i = 1; i<= limit; i++) {
+    for (let i = 1; i <= limit; i++) {
         var textOutput = '';
         var divisibleN = [];
         var storeText = '';
@@ -49,7 +49,7 @@ document.getElementById('fizzbuzz4').addEventListener('submit', function(event) 
         if (divisibleN.length > 0) {
             output += `${i}. ${storeText.trim()} - Divisible by ${divisibleN.join(", ")}<br>`;
             } else {
-                `${i}. ${defaultWord ? `- ${defaultWord}` : ' - It is not divisible by any of the numbers'}<br>`;
+            output += `${i}. ${defaultWord ? `- ${defaultWord}` : ' - It is not divisible by any of the numbers'}<br>`;
             }
         }
         document.getElementById('fizz-output').innerHTML = output;
