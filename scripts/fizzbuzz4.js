@@ -28,7 +28,7 @@ document.getElementById('fizzbuzz4').addEventListener('submit', function(event) 
     ];
 
     var count = parseInt(document.getElementById('limit').value);
-    var defaultWord =  document.getElementById('default').value || '';
+    var defaultWord = document.getElementById('default').value || '';
     var output = '';
 
     function division(number, divisor) {
