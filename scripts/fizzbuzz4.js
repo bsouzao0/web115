@@ -49,7 +49,7 @@ document.getElementById('fizzbuzz4').addEventListener('submit', function(event) 
         if (divisibleN.length > 0) {
             output += `${i}. ${storeText.trim()} - Divisible by ${divisibleN.join(", ")}<br>`;
             } else {
-            output += `${i}. ${defaultWord ? ' It is not divisible by any of the numbers'`- ${defaultWord}` : ' It is not divisible by any of the numbers'}<br>`;
+            output += `${i}. ${defaultWord ? `- ${defaultWord}` :''}<br>`;
             }
         }
         document.getElementById('fizz-output').innerHTML = output;
