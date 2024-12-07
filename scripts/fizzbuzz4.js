@@ -27,7 +27,7 @@ document.getElementById('fizzbuzz4').addEventListener('submit', function(event) 
         document.getElementById('word3').value
     ];
 
-    var count = parseInt(document.getElementById('limit').value);
+    var limit = parseInt(document.getElementById('limit').value);
     var defaultWord = document.getElementById('default').value || '';
     var output = '';
 
@@ -35,7 +35,7 @@ document.getElementById('fizzbuzz4').addEventListener('submit', function(event) 
         return number % divisor === 0;
     }
 
-    for (let i = 1; i<= count; i++) {
+    for (let i = 1; i<= limit; i++) {
         var textOutput = '';
         var divisibleN = [];
         var storeText = '';
