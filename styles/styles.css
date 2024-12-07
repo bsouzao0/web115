@@ -120,7 +120,6 @@ header nav ul li:first-child {
 }
 
 /* Headings */
-
 h2 {
    font-size: 1.8em;
    font-family: 'Caveat', cursive;
@@ -136,6 +135,7 @@ h3 {
 #greeting {
    text-align: center;
 }
+
 /* Link Styles */
 a:link {
 	color: #00437a;
