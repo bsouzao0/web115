@@ -35,7 +35,7 @@ document.getElementById('fizzbuzz4').addEventListener('submit', function(event) 
         return number % divisor === 0;
     }
 
-    for (let i = 1; i<= countLimit; i++) {
+    for (let i = 1; i<= count; i++) {
         var textOutput = '';
         var divisibleN = [];
         var storeText = '';
