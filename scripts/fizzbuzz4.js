@@ -20,6 +20,7 @@ document.getElementById('fizzbuzz3').addEventListener('submit', function(event) 
         parseInt(document.getElementById('num2').value),
         parseInt(document.getElementById('num3').value)
     ];
+
     const words = [ 
         document.getElementById('word1').value,
         document.getElementById('word2').value,
@@ -58,6 +59,5 @@ document.getElementById('fizzbuzz3').addEventListener('submit', function(event) 
 document.getElementById("reset").addEventListener("click", function() {
     document.getElementById("greeting").textContent = "Welcome to Brave Owl!";
     document.getElementById("fizz-output").innerHTML = '';
-
 
 });
