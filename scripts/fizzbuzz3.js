@@ -33,7 +33,7 @@ document.getElementById('fizzbuzz3').addEventListener('submit', function(event) 
         for (let d = 0; d < divisors.length; d++) {
             if (division(i, divisors[d])) {
                 divisibleN.push(divisors[d]);
-                storeText += words[d] + " ";
+                storeText += words[d] + " - ";
             }
         }
         if (divisibleN.length > 0) {
