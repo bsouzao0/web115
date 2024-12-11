@@ -47,7 +47,7 @@ document.getElementById('fizzbuzz4').addEventListener('submit', function(event) 
             }
         }
         if (divisibleN.length > 0) {
-            output += `${i}. ${storeText.trim()} - Divisible by ${divisibleN.join(", ")}<br>`;
+            output += `${i}. ${storeText.trim()}<br>`;
             } else {
             output += `${i}. ${defaultWord ? `${defaultWord}` :''}<br>`;
             }
