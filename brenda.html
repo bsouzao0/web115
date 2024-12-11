@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=EB+Garamond:wght@600&display=swap" rel="stylesheet">
+    
+    <style>
+      body {
+        background: linear-gradient(hsl(229, 94%, 21%), hsl(239, 60%, 77%), hsla(214, 93%, 45%, 0.725));
+        margin: 0;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .card {
+        width: 300px;
+        height: 400px;
+        background-color: #05184e;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #e4e3ec;
+        position: relative;
+        border: solid 4px #05184e;
+      }
+
+      .name {
+        z-index: 2;
+        position: absolute;
+        top: 25%; 
+        left: 5%; 
+        text-align: left; 
+        z-index: 2;
+      }
+
+      .first-name {
+        font-size: 35px;
+        font-family: 'Caveat', cursive;
+        font-weight: bold;
+      }
+
+      .last-name {
+        font-size: 35px;
+        font-family: 'EB Garamond', serif;
+        font-weight: 600;
+      }
+
+      .me {
+        width: 200px;
+        height: 200px;
+        background-color: #928eb3;
+        position: absolute;
+        border-radius: 0% 0% 0% 100%;
+        top: -4px;
+        right: -4px;
+        z-index: 1;
+        border: solid 2px #05184e;
+        
+      }
+
+      .linkedin {
+        width: 50px;
+        height: 30px;
+        border-radius: 50%;
+        padding: 0;
+        margin: 0;
+      }
+
+      .role {
+        position: absolute;
+        top: 55%;
+        left: 50%; 
+        transform: translateX(-50%); 
+        font-size: 25px;
+        font-family: 'EB Garamond', serif;
+        text-align: center;
+        width: 100%;
+      }
+      .social {
+        position: absolute;
+        bottom: 20%;
+        left: 50%; 
+        transform: translateX(-50%); 
+        font-size: 19px;
+        font-family: 'EB Garamond', serif;
+        text-align: center;
+        width: 100%;
+        display: flex; 
+        justify-content: center;
+        gap: 0;
+      }
+      
+    </style>
+    <title>Brenda Oliveira</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <div class="card">
+      <div class="name">
+        <div class="first-name">Brenda</div>
+        <div class="last-name">OLIVEIRA</div>
+      </div>
+      <img class="me" src="images/b-circulo.png" alt="Brenda Image"/>
+      <div class="role">Web Developer</div>
+      <div class="social">
+        <a href="https://www.linkedin.com/in/brendasayonara/" target="_blank">
+            <img src="images/Linkedin.png" class="linkedin" alt="Linkedin"/>
+          </a>
+          <span>brendasayonara</span>
+        </div>
+    </div>
+  </body>
+</html>
