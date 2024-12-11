@@ -9,7 +9,8 @@ var pageConfig = {
         fizzbuzz1: "FizzBuzz 1",
         fizzbuzz2: "FizzBuzz 2",
         fizzbuzz3: "FizzBuzz 3",
-        fizzbuzz4: "FizzBuzz 4"
+        fizzbuzz4: "FizzBuzz 4",
+        brenda: "Brenda Oliveira"
     },
     defaultTitle: "Default Title"
 };
