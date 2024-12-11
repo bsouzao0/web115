@@ -83,16 +83,29 @@
       }
       .social {
         position: absolute;
-        bottom: 20%;
+        bottom: 15%;
         left: 50%; 
         transform: translateX(-50%); 
-        font-size: 19px;
+        font-size: 16px;
         font-family: 'EB Garamond', serif;
         text-align: center;
         width: 100%;
         display: flex; 
+        align-items: center;
         justify-content: center;
         gap: 0;
+      }
+
+      .line {
+        bottom: 32%;
+        left: 50%; 
+        width: 90%;
+        height: 5px;
+        display: flex; 
+        justify-content: center;
+        background-color: #928eb3;
+        position: absolute;
+        transform: translateX(-50%); 
       }
       
     </style>
@@ -107,6 +120,7 @@
       </div>
       <img class="me" src="images/b-circulo.png" alt="Brenda Image"/>
       <div class="role">Web Developer</div>
+      <div class="line"></div>
       <div class="social">
         <a href="https://www.linkedin.com/in/brendasayonara/" target="_blank">
             <img src="images/Linkedin.png" class="linkedin" alt="Linkedin"/>
