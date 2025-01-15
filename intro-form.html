@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+        <script src="scripts/page-titles.js"></script>
+        <script src="scripts/page-components.js" defer></script>
+        <title>Brenda Oliveira's Brave Owl</title>
+    </head>
+<body data-title="intro-form">
+    <h2>Introduction Form</h2>
+    <form id="intro-form" action="#" method="POST">
+        <fieldset>
+            <legend>Profile Picture:</legend>
+            <label for="imageUpload">Upload Your Profile Picture:</label>
+            <input type="file" id="imageUpload" name="imageUpload" accept="image/*"><br>
+            <label for="caption">Caption for Your Picture:</label>
+            <textarea id="caption" name="caption" placeholder="Enter a caption for your picture" rows="4"></textarea><br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="firs-tname">First Name:</label>
+            <input type="text" name="firs-tname" id="firs-tname" value="Brenda" required><br><br>
+            <label for="middle-initial">Middle Initial:</label>
+            <input type="text" id="middle-initial" name="middle-initial" placeholder="Optional"><br><br>
+            <label for="last-name">Last Name:</label>
+            <input type="text" name="last-name" id="last-name" value="Oliveira" required><br><br>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" value="brenda@example.com" required><br><br>
+            <label for="background">Personal Background:</label>
+            <input type="text" name="background" id="background" value="Born and raised in the north of Brazil, I moved to the US in 2020." required><br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Professional Background</legend>
+            <label for="profession">Profession:</label>
+            <input type="text" name="profession" id="profession" value="English Teacher, Computer Instructor, Social Assistance Coordinator" required><br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Academic Background</legend>
+            <label for="degree">Degree:</label>
+            <input type="text" name="degree" id="degree" value="English Literature" required><br><br>
+            <label for="currentDegree">Current Studies:</label>
+            <input type="text" name="currentDegree" id="currentDegree" value="Information Technology: Full Stack Programming and Cloud & Virtualization Tech" required><br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Classes and Reasons:</legend>
+            <div class="class-reason">
+                <label for="course1">Course 1:</label>
+                <input type="text" name="course1" id="course1" value="WBL111 - Work Based Learning" >
+                <input type="text" name="reason1" id="reason1" placeholder="Why you are taking this course">
+            </div><br><br>
+
+            <div class="class-reason">
+                <label for="course2">Course 2:</label>
+                <input type="text" name="course2" id="course2" value="WEB115 - Web Markup and Scripting">
+                <input type="text" name="reason2" id="reason2" placeholder="Why you are taking this course" >
+            </div><br><br>
+
+            <div class="class-reason">
+                <label for="course3">Course 3:</label>
+                <input type="text" name="course3" id="course3" value="WEB140 - Web Development Tools">
+                <input type="text" name="reason3" id="reason3" placeholder="Why you are taking this course">
+            </div><br><br>
+
+            <div class="class-reason">
+                <label for="course4">Course 4:</label>
+                <input type="text" name="course4" id="course4" value="NET125 - Introduction to Networks">
+                <input type="text" name="reason4" id="reason4" placeholder="Why you are taking this course">
+            </div><br><br>
+
+            <div class="class-reason">
+                <label for="course5">Course 5:</label>
+                <input type="text" name="course5" id="course5" value="CSC221 - Advanced Python Programming">
+                <input type="text" name="reason5" id="reason5" placeholder="Why you are taking this course">
+            </div><br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Funny/Interesting Item</legend>
+            <label for="interest">Interest:</label>
+            <input type="text" name="interest" id="interest" value="I like to read Mangas and watch Animes."><br><br>
+        </fieldset>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+
+    <div class="output" id="output"></div>
+    <script src="scripts/intro-form.js"></script>
+</body>
+</html>
