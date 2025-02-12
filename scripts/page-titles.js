@@ -12,5 +12,5 @@ var pageConfig = {
         fizzbuzz4: "FizzBuzz 4",
         brenda: "Brenda Oliveira"
     },
-    defaultTitle: "Default Title"
+    defaultTitle: "Brenda Oliveira's Brave Owl"
 };
