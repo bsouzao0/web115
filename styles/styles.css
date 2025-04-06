@@ -28,7 +28,7 @@ header {
 }
 
 header img {
-   width: 100%;
+   width: 110%;
    height: auto;
    display: block;
 }
@@ -140,6 +140,10 @@ h3 {
 a:link {
 	color: #00437a;
 	text-decoration: none; 
+ }
+
+ a:visited {
+   text-decoration: none; 
  }
 
 /* Img */
