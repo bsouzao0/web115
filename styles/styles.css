@@ -78,6 +78,10 @@ header nav ul li {
    
 }
 
+header nav ul li a {
+   text-decoration: none;
+}
+
 header nav ul li:first-child {
    margin-left: 0;
 }
@@ -247,6 +251,10 @@ footer {
    margin: 20px auto 0 auto;
    width: 100%;
    padding: 10px 0;
+}
+
+footer a {
+   text-decoration: none;
 }
 
 footer img {
